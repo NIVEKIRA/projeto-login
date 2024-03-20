@@ -5,3 +5,69 @@ paletas de cores:
 
 descubro depois
 */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(65, 1, 139, 0.529)
+    
+}
+p#texto{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.518);
+}
+input#email, input#senha{
+    border-radius: 9px;
+    padding: 10px;
+    padding-top: 18.5px;
+    background-color: rgba(182, 160, 206, 0.704);
+
+}
+span{
+    background-color: rgba(160, 206, 190, 0.704);
+    padding: 8.5px;
+    padding-bottom: 13px;
+    border-radius: 9px;
+}
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
+section#login > div#imagem{
+    display: block;
+    background: url(../imagens/foto-areia.jpg) no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    height: 200px;
+}
+input#enviar{
+    padding: 9px;
+    padding-right: 181px;
+    margin-top: 10px;
+}
