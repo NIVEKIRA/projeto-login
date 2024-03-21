@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+/*typical Device breakpoints
+
+pequenas telas: até 600px
+celular: de 600px até 768px
+tablet:de 768px até 992px
+desktop:de 992px até 1200px
+grandes telas:acima de 1200px*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #3993fbbc, #c02cc0a7,#890c89cf);
+    }
+    section#login{
+        width: 80vw;
+    }
+    section#login > div#imagem{
+        background: url(../imagens/areia.png);
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+    p#texto{
+        font-size: 1.2em;
+    }
+}
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to bottom, #129512cd,#e4e442a9);
+    }
+    section#login{
+        width: 950px;
+    }
+    section#login > div#imagem{
+        background: url(../imagens/pexels-jacint-bofill-18002073.jpg);
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 50%;
+    }
+    p#texto{
+        font-size: 1.4em;
+    }
+}
