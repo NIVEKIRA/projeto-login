@@ -15,6 +15,7 @@ grandes telas:acima de 1200px*/
     }
     section#login{
         width: 80vw;
+        height: 360px;
     }
     section#login > div#imagem{
         background: url(../imagens/areia.png);
@@ -29,6 +30,10 @@ grandes telas:acima de 1200px*/
     p#texto{
         font-size: 1.2em;
     }
+    input#email, input#senha{
+        width: calc(100% - 10%);
+        height: 100%;
+    }
 }
 @media screen and (min-width: 992px) {
     body{
@@ -36,6 +41,7 @@ grandes telas:acima de 1200px*/
     }
     section#login{
         width: 950px;
+        height: 470px;
     }
     section#login > div#imagem{
         background: url(../imagens/pexels-jacint-bofill-18002073.jpg);
@@ -49,5 +55,9 @@ grandes telas:acima de 1200px*/
     }
     p#texto{
         font-size: 1.4em;
+    }
+    input#email, input#senha{
+        width: calc(100% - 10%);
+        height: 100%;
     }
 }
